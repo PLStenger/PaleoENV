@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=09_HOPS_reduced_01
+#SBATCH --job-name=01_quality_check_by_FastQC
 #SBATCH --ntasks=1
 #SBATCH -p smp
 #SBATCH --mem=1000G
 #SBATCH --mail-user=pierrelouis.stenger@gmail.com
 #SBATCH --mail-type=ALL 
-#SBATCH --error="/home/plstenge/PaleoENV/00_scripts/09_HOPS_reduced_01.err"
-#SBATCH --output="/home/plstenge/PaleoENV/00_scripts/09_HOPS_reduced_01.out"
+#SBATCH --error="/home/plstenge/PaleoENV/00_scripts/01_quality_check_by_FastQC.err"
+#SBATCH --output="/home/plstenge/PaleoENV/00_scripts/01_quality_check_by_FastQC.out"
 
 # installing FastQC from https://www.bioinformatics.babraham.ac.uk/projects/download.html
 # FastQC v0.11.9 (Mac DMG image)
